@@ -1,0 +1,19 @@
+@mixin restaurant_block {
+    display: flex;
+    background-color: $colour-white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px $colour-shadow;
+    max-height: 135px;
+}
+
+@mixin restaurant_img {
+    width: 100%;
+}
+
+.restaurant_block {
+    @include restaurant_block()
+}
+
+.restaurant_block img {
+    @include restaurant_img()
+}

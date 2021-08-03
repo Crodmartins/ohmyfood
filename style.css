@@ -1,0 +1,51 @@
+.restaurant_block {
+  display: flex;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px lightgrey;
+  max-height: 135px;
+}
+
+.restaurant_block img {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 2rem;
+  font-weight: 100;
+  line-height: 1.7;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 5rem;
+  font-style: italic;
+}
+
+header {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.localisation {
+  display: flex;
+  justify-content: center;
+  background-color: lightgrey;
+  padding: 5px;
+}
+
+input {
+  background-color: lightgrey;
+  border: none;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
