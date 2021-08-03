@@ -7,8 +7,11 @@
 @import "./base/_typography";
 
 @import "./components/_buttons";
+@import "./components/form";
 
 @import "./layout/_header";
 @import "./layout/_nav";
 @import "./layout/_container";
-@import "./layout/_form";
+@import "./layout/footer";
+
+@import "./pages/index.scss";

@@ -1,3 +1,104 @@
+body {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 2rem;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+}
+
+button {
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  padding: 20px;
+  font-size: 0.7em;
+  box-shadow: 5px 5px 10px lightgrey;
+  width: 60%;
+}
+
+.localisation {
+  display: flex;
+  justify-content: center;
+  background-color: #DCDCDD;
+  padding: 15px;
+}
+
+input {
+  background-color: #DCDCDD;
+  border: none;
+  text-align: center;
+  font-size: 0.6em;
+  font-weight: bold;
+  color: #2E2D2B;
+}
+
+input i {
+  font-size: 20px;
+}
+
+input .fa {
+  font-size: 25px;
+}
+
+header {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+footer {
+  background-color: #2E2D2B;
+  display: flex;
+  flex-direction: column;
+}
+
+footer img {
+  width: 120px;
+  margin: 20px 0px 0px 40px;
+  filter: invert(100%);
+}
+
+li {
+  list-style-type: none;
+  font-size: 0.6em;
+  color: #fff;
+}
+
+footer i {
+  padding-right: 5px;
+}
+
+/*Top_container*/
+.top_container_headline {
+  background-color: #EBEBEB;
+  padding: 20px 20px 60px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.top_container_headline h1 {
+  text-align: center;
+}
+
+.top_container p {
+  color: #2E2D2B;
+  font-size: 0.8em;
+  text-align: center;
+  font-weight: 200;
+  margin-top: 0;
+}
+
+/*Restaurants*/
 .restaurant_block {
   display: flex;
   background-color: #fff;
@@ -8,44 +109,6 @@
 
 .restaurant_block img {
   width: 100%;
-}
-
-body {
-  margin: 0;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  color: black;
-  font-size: 2rem;
-  font-weight: 100;
-  line-height: 1.7;
-}
-
-h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-size: 5rem;
-  font-style: italic;
-}
-
-header {
-  background: #fff;
-  display: flex;
-  justify-content: center;
-}
-
-.localisation {
-  display: flex;
-  justify-content: center;
-  background-color: lightgrey;
-  padding: 5px;
-}
-
-input {
-  background-color: lightgrey;
-  border: none;
-  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

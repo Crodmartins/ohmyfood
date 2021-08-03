@@ -10,10 +10,4 @@
     width: 100%;
 }
 
-.restaurant_block {
-    @include restaurant_block()
-}
 
-.restaurant_block img {
-    @include restaurant_img()
-}

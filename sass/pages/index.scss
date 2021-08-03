@@ -1,0 +1,28 @@
+/*Top_container*/
+.top_container_headline {
+    background-color: $colour-fourth;
+    padding :20px 20px 60px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.top_container_headline h1 {
+    text-align: center;
+}
+.top_container p {
+    color: $colour-footer;
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+/*Restaurants*/
+.restaurant_block {
+    @include restaurant_block()
+}
+
+.restaurant_block img {
+    @include restaurant_img()
+}
+
