@@ -1,0 +1,39 @@
+.steps {
+    display: flex;
+    flex-direction: column;
+}
+.step_container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.step_round {
+    border-radius: 30px;
+    background-color: $colour-primary;
+    color: $colour-white;
+    padding: 20px;
+    height: 3px;
+    width: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7em;
+}
+.step_box {
+    background-color: $colour-fourth;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px $colour-shadow;
+    margin: 0;
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.step_box .fa, .fas {
+    color: $colour-footer;
+}
+.step_box figcaption {
+    font-size: 0.7em;
+    
+}

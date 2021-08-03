@@ -17,6 +17,11 @@
     margin-top: 0;
 }
 
+/*Steps*/
+.steps {
+    margin: 20px;
+    
+}
 /*Restaurants*/
 .restaurant_block {
     @include restaurant_block()

@@ -13,6 +13,11 @@ h1 {
   font-size: 1em;
 }
 
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+}
+
 button {
   background: linear-gradient(to bottom right, #FF79DA, #9356DC);
   border: none;
@@ -53,6 +58,49 @@ header {
   display: flex;
   justify-content: center;
   margin: 20px;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+}
+
+.step_container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.step_round {
+  border-radius: 30px;
+  background-color: #9356DC;
+  color: #fff;
+  padding: 20px;
+  height: 3px;
+  width: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7em;
+}
+
+.step_box {
+  background-color: #EBEBEB;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px lightgrey;
+  margin: 0;
+  width: 90%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.step_box .fa, .fas {
+  color: #2E2D2B;
+}
+
+.step_box figcaption {
+  font-size: 0.7em;
 }
 
 footer {
@@ -96,6 +144,11 @@ footer i {
   text-align: center;
   font-weight: 200;
   margin-top: 0;
+}
+
+/*Steps*/
+.steps {
+  margin: 20px;
 }
 
 /*Restaurants*/
