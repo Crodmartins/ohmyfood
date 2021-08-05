@@ -9,13 +9,22 @@ body {
 }
 
 h1 {
-  font-family: "Roboto", sans-serif;
   font-size: 1em;
 }
 
 h2 {
-  font-family: "Roboto", sans-serif;
   font-size: 1em;
+  margin: 20px;
+}
+
+h3 {
+  font-size: 0.8em;
+  margin: 0;
+}
+
+p {
+  font-size: 0.8em;
+  margin: 0;
 }
 
 button {
@@ -60,15 +69,38 @@ header {
   margin: 20px;
 }
 
+/*Top_container*/
+.top_container_headline {
+  background-color: #EBEBEB;
+  padding: 20px 20px 60px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.top_container_headline h1 {
+  text-align: center;
+}
+
+.top_container p {
+  color: #2E2D2B;
+  font-size: 0.8em;
+  text-align: center;
+  font-weight: 200;
+  margin-top: 0;
+}
+
+/*!Steps!*/
 .steps {
   display: flex;
   flex-direction: column;
+  padding: 50px 0px 50px 0px;
 }
 
 .step_container {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin: 0px 20px 20px 20px;
 }
 
 .step_round {
@@ -93,14 +125,24 @@ header {
   padding: 20px;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 .step_box .fa, .fas {
-  color: #2E2D2B;
+  color: grey;
 }
 
 .step_box figcaption {
   font-size: 0.7em;
+}
+
+/*!Restaurant!*/
+.restaurants {
+  background-color: #EBEBEB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px 50px 0px;
 }
 
 footer {
@@ -125,43 +167,52 @@ footer i {
   padding-right: 5px;
 }
 
-/*Top_container*/
-.top_container_headline {
-  background-color: #EBEBEB;
-  padding: 20px 20px 60px 20px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.top_container_headline h1 {
-  text-align: center;
-}
-
-.top_container p {
-  color: #2E2D2B;
-  font-size: 0.8em;
-  text-align: center;
-  font-weight: 200;
-  margin-top: 0;
-}
-
-/*Steps*/
-.steps {
-  margin: 20px;
-}
-
 /*Restaurants*/
 .restaurant_block {
   display: flex;
+  flex-direction: column;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 10px lightgrey;
-  max-height: 135px;
+  width: 90%;
+  max-height: 350px;
 }
 
 .restaurant_block img {
   width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0px;
+}
+
+.restaurant_block figure {
+  display: flex;
+  width: 100%;
+}
+
+.restaurant_block figcaption {
+  padding: 10px 0px 10px 10px;
+  border-radius: 0 0 20px 20px;
+  background-color: #fff;
+  box-shadow: 1px 1px 15px lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.label_new {
+  background-color: #99E2D0;
+  border-radius: 5px;
+  color: green;
+  position: absolute;
+  right: 40px;
+  font-size: 0.8em;
+  padding: 10px;
+}
+
+.restaurant_block .far {
+  position: absolute;
+  right: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

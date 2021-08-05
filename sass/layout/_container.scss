@@ -1,11 +1,32 @@
+/*Top_container*/
+.top_container_headline {
+    background-color: $colour-fourth;
+    padding :20px 20px 60px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.top_container_headline h1 {
+    text-align: center;
+}
+.top_container p {
+    color: $colour-footer;
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+/*!Steps!*/
 .steps {
     display: flex;
     flex-direction: column;
+    padding: 50px 0px 50px 0px;
 }
 .step_container {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin: 0px 20px 20px 20px;
 }
 
 .step_round {
@@ -29,11 +50,21 @@
     padding: 20px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 .step_box .fa, .fas {
-    color: $colour-footer;
+    color: $colour-icone;
 }
 .step_box figcaption {
     font-size: 0.7em;
     
+}
+
+/*!Restaurant!*/
+.restaurants {
+    background-color: $colour-fourth;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px 50px 0px;
 }
