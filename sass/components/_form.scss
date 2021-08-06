@@ -4,13 +4,17 @@
     background-color: $colour-localisation;
     padding: 15px;
     }
+.localisation .fas {
+    color: black;
+}
 input {
     background-color: $colour-localisation;
     border: none;
     text-align: center;
-    font-size: 0.6em;
+    font-size: 0.5em;
     font-weight: bold;
     color: $colour-footer;
+    width: 160px;
 }
 input i {
     font-size: 20px;
