@@ -20,7 +20,7 @@
 .steps {
     display: flex;
     flex-direction: column;
-    padding: 50px 0px 50px 0px;
+    padding: 40px 0px 40px 0px;
 }
 .step_big_container {
     margin-left: 10px;
@@ -51,25 +51,29 @@
     box-shadow: 5px 5px 10px $colour-shadow;
     margin: 0;
     width: 90%;
-    padding: 20px;
+    padding: 40px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.step_box .fa, .fas {
+.step_box i {
     color: $colour-icone;
     font-size: 0.7em;
+    position: absolute;
+    left: 65px;
 }
 .step_box figcaption {
     font-size: 0.5em;
-    
+    position: absolute;
 }
 
 /*!Restaurant!*/
 .restaurants {
     background-color: $colour-fourth;
+    padding: 40px 0px 40px 0px;
+}
+.restaurant_big_container {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    padding: 50px 0px 50px 0px;
+    flex-direction: column;
 }
