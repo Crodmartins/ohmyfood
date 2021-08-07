@@ -44,3 +44,27 @@
     position: absolute;
     right: 50px;
 }
+
+@mixin restaurant_menu_img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+@mixin restaurant_menu_i{
+    font-size : 0.7em;
+}
+
+@mixin restaurant_menu_figcaption {
+    background-color: $colour-fourth;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 30px 30px 0px 0px;
+    position: relative;
+    bottom: 35px;
+}
+@mixin restaurant_menu_id {
+    margin: 0;
+}

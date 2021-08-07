@@ -1,0 +1,16 @@
+.restaurant_menu_id {
+    @include restaurant_menu_id   
+}
+
+
+.restaurant_menu_id img {
+    @include restaurant_menu_img
+}
+
+.restaurant_menu_id figcaption {
+    @include restaurant_menu_figcaption
+}
+
+.restaurant_menu_id i {
+    @include restaurant_menu_i
+}
