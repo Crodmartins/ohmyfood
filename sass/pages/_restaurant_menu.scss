@@ -16,3 +16,12 @@
 .restaurant_menu {
     @include restaurant_menu
 }
+.menu_container {
+    @include menu_container
+}
+.menu_bloc {
+    @include menu_bloc
+}
+.menu_bloc span {
+    @include span_price
+}

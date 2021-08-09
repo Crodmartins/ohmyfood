@@ -75,4 +75,30 @@
 @mixin restaurant_menu {
     background-color: $colour-fourth;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+@mixin menu_container {
+    margin: 0px 20px 30px 20px;
+    width: 90%;
+}
+@mixin menu_bloc {
+    background-color: $colour-white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 5px 5px 10px $colour-shadow;
+    margin: 10px 0px 10px 0px;
+}
+
+@mixin span_price {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    font-size: 0.5em;
 }
