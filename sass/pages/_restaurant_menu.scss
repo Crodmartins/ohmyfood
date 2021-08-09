@@ -2,7 +2,6 @@
     @include restaurant_menu_id   
 }
 
-
 .restaurant_menu_id img {
     @include restaurant_menu_img
 }
@@ -13,4 +12,7 @@
 
 .restaurant_menu_id i {
     @include restaurant_menu_i
+}
+.restaurant_menu {
+    @include restaurant_menu
 }
