@@ -212,6 +212,10 @@ footer i {
   font-size: 0.8em;
 }
 
+footer a {
+  color: #fff;
+}
+
 /*Restaurants*/
 .restaurant_block {
   display: flex;
