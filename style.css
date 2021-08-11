@@ -96,12 +96,13 @@ input {
 header {
   background: #fff;
   display: flex;
+  justify-content: center;
   margin: 20px;
 }
 
-header img {
+header i {
   position: relative;
-  left: 70px;
+  right: 75px;
 }
 
 /*Top_container*/

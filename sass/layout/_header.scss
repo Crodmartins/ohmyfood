@@ -1,9 +1,11 @@
 header {
     background: $colour-white;
     display: flex;
+    justify-content: center;
     margin: 20px;
 }
-header img {
+
+header i {
     position: relative;
-    left: 70px;
+    right: 75px;
 }
