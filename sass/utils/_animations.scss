@@ -7,14 +7,15 @@
     animation: loader 3s forwards ;
         &__spinner {
         position: relative;
-        top: 50%;
+        top: 30%;
         left: 30%;
         border: 16px solid $colour-primary;
         border-right: 16px solid $colour-secondary;
         border-bottom: 16px solid $colour-third;
         border-radius: 50%;
         width: 120px;
-        height: 120px; 
+        height: 120px;
+        display: inline-block;
         animation: loading-spinner 3s forwards;
     }
 }

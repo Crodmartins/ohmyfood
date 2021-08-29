@@ -8,7 +8,7 @@
 }
 .loader__spinner {
   position: relative;
-  top: 50%;
+  top: 30%;
   left: 30%;
   border: 16px solid #9356DC;
   border-right: 16px solid #FF79DA;
@@ -16,6 +16,7 @@
   border-radius: 50%;
   width: 120px;
   height: 120px;
+  display: inline-block;
   animation: loading-spinner 3s forwards;
 }
 
