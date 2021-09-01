@@ -15,5 +15,9 @@
     @include label_new
 }
 .restaurant_block .far {
-    @include restaurant_icone
+    @include restaurant_heart
+}
+
+.restaurant_block .fas {
+    @include restaurant_heart_full
 }

@@ -43,3 +43,19 @@
         transform: rotate(360deg);
         opacity: 0;} 
 }
+
+.restaurant_block .far {
+    &:active{
+    visibility: hidden;
+    opacity: 1;
+    transition-property: opacity, left;
+    }
+}
+
+.restaurant_block .fas {
+    &:active {
+        visibility:visible;
+        opacity: 1;
+        transition-property: opacity, left;
+    }
+}

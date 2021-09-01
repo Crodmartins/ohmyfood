@@ -46,6 +46,18 @@
     opacity: 0;
   }
 }
+.restaurant_block .far:active {
+  visibility: hidden;
+  opacity: 1;
+  transition-property: opacity, left;
+}
+
+.restaurant_block .fas:active {
+  visibility: visible;
+  opacity: 1;
+  transition-property: opacity, left;
+}
+
 body {
   margin: 0;
 }
@@ -295,7 +307,7 @@ footer a {
 }
 
 .restaurant_block figcaption {
-  padding: 10px 0px 10px 10px;
+  padding: 10px 100px 10px 10px;
   border-radius: 0 0 20px 20px;
   background-color: #fff;
   box-shadow: 1px 1px 15px lightgrey;
@@ -317,7 +329,15 @@ footer a {
 
 .restaurant_block .far {
   position: absolute;
-  right: 50px;
+  right: 30px;
+}
+
+.restaurant_block .fas {
+  position: absolute;
+  right: 60px;
+  background: linear-gradient(#9356DC, #FF79DA);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .restaurant_menu_id {
