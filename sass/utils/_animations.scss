@@ -69,3 +69,8 @@
         opacity: 1;
     }
 }
+
+button:hover {
+    box-shadow:  5px 5px 10px darken($colour-shadow, $amount: 20%);
+    filter: brightness(110%);
+}
