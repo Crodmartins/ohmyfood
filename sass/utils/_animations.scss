@@ -46,16 +46,26 @@
 
 .restaurant_block .far {
     &:active{
-    visibility: hidden;
-    opacity: 1;
-    transition-property: opacity, left;
+    opacity: 0;
+    transition: opacity;
     }
 }
 
 .restaurant_block .fas {
-    &:active {
-        visibility:visible;
+    &:active{
+    background: linear-gradient($colour-primary, $colour-secondary);
+    -webkit-background-clip: text;
+    color: transparent;
+    opacity: 1;
+    animation: progress 1s ease-in 50ms both;
+    }
+}
+
+@keyframes progress {
+    0% { 
+        opacity: 0;
+    }
+    100% {
         opacity: 1;
-        transition-property: opacity, left;
     }
 }
