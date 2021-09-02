@@ -3,7 +3,7 @@
     height: 100%;
     position: fixed;
     background-color: $colour-white;
-    z-index: 1000;
+    z-index: 100;
     animation: loader 3s forwards ;
         &__spinner {
         position: relative;
@@ -25,7 +25,7 @@
         visibility: visible;
         opacity: 1;}
     50% {
-        opacity : 0.9;
+        opacity : 0.7;
     }
     100% {
         visibility: hidden;
@@ -47,7 +47,15 @@
 .restaurant_block .far {
     &:active{
     opacity: 0;
-    transition: opacity;
+    animation: empty 1s ease-in 50ms both;
+    }
+}
+@keyframes empty {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
     }
 }
 
@@ -74,3 +82,26 @@ button:hover {
     box-shadow:  5px 5px 10px darken($colour-shadow, $amount: 20%);
     filter: brightness(110%);
 }
+
+.menu_container {
+    animation: menu_appear 2s both ease-in-out;
+}
+.menu_container:nth-child(1) {
+    animation-delay: 0.5s;
+}
+.menu_container:nth-child(2) {
+    animation-delay: 1s;
+}
+.menu_container:nth-child(3) {
+    animation-delay: 1.5s;
+}
+@keyframes menu_appear {
+    0% {
+      transform: translateY(10px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
