@@ -1,3 +1,4 @@
+/*LOADER SPINNER*/
 .loader {
     width: 100%;
     height: 100%;
@@ -44,45 +45,28 @@
         opacity: 0;} 
 }
 
-.restaurant_block .far {
-    &:active{
-    opacity: 0;
-    animation: empty 1s ease-in 50ms both;
-    }
-}
-@keyframes empty {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
+/*RESTAURANT LIKE*/
+.restaurant_block .far:hover {
+    cursor: pointer;
+    transform: scale(0);
+
 }
 
-.restaurant_block .fas {
-    &:active{
-    background: linear-gradient($colour-primary, $colour-secondary);
-    -webkit-background-clip: text;
-    color: transparent;
+.restaurant_block .fas:hover {
+    background: linear-gradient($colour-primary,$colour-secondary);
     opacity: 1;
-    animation: progress 1s ease-in 50ms both;
-    }
+    transform: scale(1);
+    cursor: pointer;
 }
 
-@keyframes progress {
-    0% { 
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
 
+/*BUTTON*/
 button:hover {
     box-shadow:  5px 5px 10px darken($colour-shadow, $amount: 20%);
     filter: brightness(110%);
 }
 
+/*MENU FASE-IN*/
 .menu_bloc {
     animation: menu_appear 0.8s both ;
 }

@@ -16,6 +16,15 @@
 .restaurant_menu {
     @include restaurant_menu
 }
+.restaurant_block i {
+    @include restaurant_heart
+}
+.restaurant_block .far {
+    @include restaurant_heart_empty
+}
+.restaurant_block .fas {
+    @include restaurant_heart_full
+}
 .menu_container {
     @include menu_container
 }
@@ -24,4 +33,10 @@
 }
 .menu_bloc span {
     @include span_price
+}
+.menu__check {
+    @include menu_check
+}
+.menu_bloc .fas {
+    @include menu_check_icone
 }
