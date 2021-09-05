@@ -106,3 +106,13 @@ button:hover {
       opacity: 1;
     }
   }
+
+/*MENU CHECK*/
+.menu_bloc:hover{
+    cursor: pointer;
+    &:hover + .menu_bloc_check:hover {
+    display: flex;
+    transform: rotate(1turn);
+    cursor: pointer;
+    }
+}

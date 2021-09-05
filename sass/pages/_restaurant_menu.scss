@@ -29,11 +29,14 @@
 .menu_bloc {
     @include menu_bloc
 }
-.menu_bloc span {
-    @include span_price
+.menu_bloc_text {
+    @include menu_bloc_text
 }
-.menu__check {
-    @include menu_check
+.menu_bloc_price {
+    @include menu_bloc_price
+}
+.menu_bloc_check {
+    @include menu_bloc_check
 }
 .menu_bloc .fas {
     @include menu_check_icone
