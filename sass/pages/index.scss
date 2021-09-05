@@ -14,3 +14,12 @@
 .label_new {
     @include label_new
 }
+.restaurant_block i {
+    @include restaurant_heart
+}
+.restaurant_block .far {
+    @include restaurant_heart_empty
+}
+.restaurant_block .fas {
+    @include restaurant_heart_full
+}

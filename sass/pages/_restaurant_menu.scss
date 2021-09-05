@@ -13,18 +13,16 @@
 .restaurant_menu_id i {
     @include restaurant_menu_i
 }
+.restaurant_menu_id .fas {
+    @include restaurant_heart_full
+}
+.restaurant_menu_id .far {
+    @include restaurant_heart_empty
+}
 .restaurant_menu {
     @include restaurant_menu
 }
-.restaurant_block i {
-    @include restaurant_heart
-}
-.restaurant_block .far {
-    @include restaurant_heart_empty
-}
-.restaurant_block .fas {
-    @include restaurant_heart_full
-}
+
 .menu_container {
     @include menu_container
 }

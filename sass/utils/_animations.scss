@@ -48,18 +48,32 @@
 /*RESTAURANT LIKE*/
 .restaurant_block .far:hover {
     cursor: pointer;
-    transform: scale(0);
-
-}
-
-.restaurant_block .fas:hover {
+    background: linear-gradient($colour-primary,$colour-secondary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    &:hover + .fas{
     background: linear-gradient($colour-primary,$colour-secondary);
     opacity: 1;
     transform: scale(1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     cursor: pointer;
+    }
 }
-
-
+.restaurant_menu_id .far:hover {
+    cursor: pointer;
+    background: linear-gradient($colour-primary,$colour-secondary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    &:hover + .fas{
+    background: linear-gradient($colour-primary,$colour-secondary);
+    opacity: 1;
+    transform: scale(1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    }
+}
 /*BUTTON*/
 button:hover {
     box-shadow:  5px 5px 10px darken($colour-shadow, $amount: 20%);

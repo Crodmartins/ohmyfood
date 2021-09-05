@@ -70,7 +70,10 @@
 }
 
 @mixin restaurant_menu_i{
-    font-size : 0.7em;
+    font-size : 0.9em;
+    position: absolute;
+    right: 50px;
+    color: transparent;
 }
 
 @mixin restaurant_menu_figcaption {
@@ -87,6 +90,8 @@
     margin: 0;
     max-height: 250px;
 }
+
+
 @mixin restaurant_menu {
     background-color: $colour-fourth;
     margin: 0px;
