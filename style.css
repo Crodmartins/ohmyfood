@@ -325,8 +325,8 @@ header i {
 
 .restaurant_big_container {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  margin: 5px;
 }
 
 footer {
@@ -522,7 +522,7 @@ footer a {
   }
 
   .restaurant_big_container figure {
-    width: 45%;
+    width: 350px;
   }
 
   .footer_links {
@@ -569,6 +569,10 @@ footer a {
     left: 35px;
     font-size: 0.8em;
   }
+
+  .restaurant_big_container figure {
+    width: 475px;
+  }
 }
 /*Restaurants*/
 .restaurant_block {
@@ -577,7 +581,6 @@ footer a {
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 10px lightgrey;
-  width: 90%;
   max-height: 250px;
   margin: 10px;
   position: relative;
