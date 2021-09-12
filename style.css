@@ -521,10 +521,6 @@ footer a {
     justify-content: center;
   }
 
-  .restaurant_big_container figure {
-    width: 350px;
-  }
-
   .footer_links {
     display: flex;
     justify-content: space-between;
@@ -566,8 +562,13 @@ footer a {
   }
 
   .step_box i {
-    left: 35px;
+    left: 22px;
     font-size: 0.8em;
+  }
+
+  .restaurant_big_container {
+    flex-wrap: nowrap;
+    justify-content: space-around;
   }
 
   .restaurant_big_container figure {

@@ -38,9 +38,6 @@ button {
     flex-wrap: wrap;
     justify-content: center;
 }
-.restaurant_big_container figure {
-    width: 350px;
-}
 
 .footer_links {
     display: flex;
@@ -79,8 +76,12 @@ button {
         width: 65%;
     }
     .step_box i {
-        left: 35px;
+        left: 22px;
         font-size: 0.8em;
+    }
+    .restaurant_big_container {
+        flex-wrap: nowrap;
+        justify-content: space-around;
     }
     .restaurant_big_container figure {
         width: 475px;
