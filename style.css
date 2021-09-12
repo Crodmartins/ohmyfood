@@ -47,6 +47,16 @@
     opacity: 0;
   }
 }
+/*HOVER BLOC STEPS*/
+.step_container:hover .step_box {
+  background-color: #f2eafb;
+  cursor: pointer;
+}
+
+.step_container:hover .step_box i {
+  color: #9356DC;
+}
+
 /*RESTAURANT LIKE*/
 .restaurant_block .far:hover {
   cursor: pointer;

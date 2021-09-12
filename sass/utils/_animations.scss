@@ -45,6 +45,15 @@
         opacity: 0;} 
 }
 
+/*HOVER BLOC STEPS*/
+.step_container:hover .step_box {
+    background-color: lighten($color: $colour-primary, $amount: 35%);
+    cursor: pointer;
+}
+.step_container:hover .step_box i {
+    color: $colour-primary;
+}
+
 /*RESTAURANT LIKE*/
 .restaurant_block .far:hover {
     cursor: pointer;
