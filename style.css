@@ -583,6 +583,14 @@ footer a {
   .restaurant_big_container figure {
     width: 475px;
   }
+
+  .restaurant_menu_id {
+    max-height: 400px;
+  }
+
+  .restaurant_menu_id img {
+    height: 350px;
+  }
 }
 /*Restaurants*/
 .restaurant_block {
