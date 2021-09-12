@@ -577,7 +577,6 @@ footer a {
   }
 
   .restaurant_big_container {
-    flex-wrap: nowrap;
     justify-content: space-around;
   }
 
