@@ -1,2 +1,85 @@
 /*tablet*/
-@media all and (max-width: 1023px) and (min-width:701px)
+@media all and (min-width:701px) {
+
+    /*index*/
+.loader__spinner {
+    left: 40%;
+}
+.top_container_headline p {
+    font-size: 0.55em;
+}
+button {
+    width: 40%;
+}
+.steps {
+    padding-top: 20px;
+}
+.step_big_container {
+    display: flex;
+    justify-content:center;
+}
+.step_container {
+    width: 100%;
+    position: relative;
+    margin: 10px;
+}
+.step_round {
+    left: -12px;
+}
+.step_box {
+    justify-content: start;
+}
+.step_box i {
+    left: 15px;
+    font-size: 0.6em;
+}
+.restaurant_big_container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.restaurant_big_container figure {
+    width: 45%;
+}
+
+.footer_links {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+    /*restaurant_menu*/
+.restaurant_menu_id {
+    max-height: 300px;
+}
+.restaurant_menu_id img {
+    height: 250px;
+}
+.restaurant_menu_id h4 {
+    margin-left: 22px;
+}
+.menu_container_bloc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.menu_bloc {
+    width: 48%;
+}
+.menu_bloc__price {
+    width: 0;
+}
+}
+
+/*desktop*/
+@media all and (min-width:1023px) {
+
+    .step_box {
+        justify-content: center;
+        width: 65%;
+    }
+    .step_box i {
+        left: 35px;
+        font-size: 0.8em;
+    }
+}
