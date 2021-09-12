@@ -32,6 +32,12 @@
 .menu_bloc__text {
     @include menu_bloc__text
 }
+.menu_bloc__text h6 {
+    @include menu_bloc__text_title
+}
+.menu_bloc__text p {
+    @include menu_bloc__text_detail
+}
 .menu_bloc__price {
     @include menu_bloc__price
 }
