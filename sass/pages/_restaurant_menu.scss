@@ -29,15 +29,15 @@
 .menu_bloc {
     @include menu_bloc
 }
-.menu_bloc_text {
-    @include menu_bloc_text
+.menu_bloc__text {
+    @include menu_bloc__text
 }
-.menu_bloc_price {
-    @include menu_bloc_price
+.menu_bloc__price {
+    @include menu_bloc__price
 }
-.menu_bloc_check {
-    @include menu_bloc_check
+.menu_bloc__check {
+    @include menu_bloc__check
 }
-.menu_bloc .fas {
-    @include menu_check_icone
+.menu_bloc__check i {
+    @include menu_bloc__check_icone
 }

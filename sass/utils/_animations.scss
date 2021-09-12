@@ -108,11 +108,24 @@ button:hover {
   }
 
 /*MENU CHECK*/
-.menu_bloc:hover{
-    cursor: pointer;
-    &:hover + .menu_bloc_check:hover {
-    display: flex;
+
+.menu_bloc:hover .fas {
     transform: rotate(1turn);
-    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+
+.menu_bloc:hover .menu_bloc__check{
+    animation: slide 500ms both;
+    transform: scale(1);
+    margin-right: 0px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(50px);
+
+    }
+    100% {
+        transform: translateX(0px);
     }
 }

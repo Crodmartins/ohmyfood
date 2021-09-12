@@ -114,37 +114,36 @@
     box-shadow: 5px 5px 10px $colour-shadow;
     margin: 10px 0px 10px 0px;
     justify-content: space-between;
-    animation :translation_opacite 2s linear both;
     overflow: hidden;
     cursor: pointer;
 }
-@mixin menu_bloc_text {
-    display: flex;
-    flex-direction: column;
+@mixin menu_bloc__text {
     padding: 10px;
+    width: 79%;
+    text-overflow: ellipsis;
 }
 
-@mixin menu_bloc_price {
+@mixin menu_bloc__price {
     display: flex;
     align-items: flex-end;
     font-size: 0.5em;
     padding: 10px;
+    justify-content: flex-end;
+    width: 20%;
 }
 
-@mixin menu_bloc_check {
-    display: none;
+@mixin menu_bloc__check {
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 49px;
     background-color: $colour-third;
     border-radius: 0px 10px 10px 0px;
     padding: 5px 20px 5px 20px;
-    transition: all 200ms linear;
-    transform: rotate(0);
-    overflow: hidden;
+    margin-right: -64px;
 }
-@mixin menu_check_icone {
+@mixin menu_bloc__check_icone {
     font-size: 0.7em;
     color: $colour-white;
-    display: flex;
+    
 }
