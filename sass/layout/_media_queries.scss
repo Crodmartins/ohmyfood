@@ -57,14 +57,14 @@ h2 {
 .restaurant_menu_id img {
     height: 250px;
 }
-.restaurant_menu_id h4 {
-    margin-left: 22px;
+
+.menu_container {
+    width: 75%;
 }
 .menu_container_bloc {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 80%;
 }
 .menu_bloc {
     width: 100%;
@@ -81,7 +81,7 @@ h2 {
         left: 43%;
     }
     button {
-        width: 30%;
+        min-width: 30%;
     }
     .step_round {
         left: 4px;
@@ -105,6 +105,7 @@ h2 {
     }
     .restaurant_menu {
         flex-direction: row;
+        align-items: flex-start;
     }
     .restaurant_menu_id {
         max-height: 400px;

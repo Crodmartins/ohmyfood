@@ -564,15 +564,14 @@ footer a {
     height: 250px;
   }
 
-  .restaurant_menu_id h4 {
-    margin-left: 22px;
+  .menu_container {
+    width: 75%;
   }
 
   .menu_container_bloc {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 80%;
   }
 
   .menu_bloc {
@@ -590,7 +589,7 @@ footer a {
   }
 
   button {
-    width: 30%;
+    min-width: 30%;
   }
 
   .step_round {
@@ -621,6 +620,7 @@ footer a {
 
   .restaurant_menu {
     flex-direction: row;
+    align-items: flex-start;
   }
 
   .restaurant_menu_id {
