@@ -543,10 +543,11 @@ footer a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 15px;
   }
 
   .restaurant_big_container a {
-    width: 45%;
+    min-width: 45%;
   }
 
   .footer_links {
@@ -607,11 +608,7 @@ footer a {
   }
 
   .restaurant_big_container a {
-    max-width: 55%;
-  }
-
-  .restaurant_big_container {
-    justify-content: space-around;
+    min-width: 49%;
   }
 
   .restaurant_big_container figure {

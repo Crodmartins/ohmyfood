@@ -40,9 +40,10 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 15px;
 }
 .restaurant_big_container a {
-    width: 45%;
+    min-width: 45%;
 }
 .footer_links {
     display: flex;
@@ -95,10 +96,7 @@ h2 {
         font-size: 0.8em;
     }
     .restaurant_big_container a {
-        max-width: 55%;
-    }
-    .restaurant_big_container {
-        justify-content: space-around;
+        min-width: 49%;
     }
     .restaurant_big_container figure {
         width: 475px;
