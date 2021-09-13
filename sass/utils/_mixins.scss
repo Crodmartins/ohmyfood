@@ -71,7 +71,7 @@
 @mixin restaurant_menu_i{
     font-size : 0.9em;
     position: absolute;
-    right: 50px;
+    right: 21px;
     color: transparent;
 }
 
@@ -80,7 +80,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 21px;
     border-radius: 30px 30px 0px 0px;
     position: relative;
     bottom: 35px;
@@ -97,7 +97,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 50px;
 }
 
 @mixin menu_container {
@@ -154,4 +153,10 @@
     font-size: 0.7em;
     color: $colour-white;
     
+}
+@mixin menu_order {
+    background-color: $colour-fourth;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
 }

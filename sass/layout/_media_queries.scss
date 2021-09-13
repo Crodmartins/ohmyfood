@@ -9,19 +9,22 @@
     font-size: 0.55em;
 }
 button {
-    width: 40%;
+    min-width: 40%;
+}
+h2 {
+    margin-left: 40px;
 }
 .steps {
     padding-top: 20px;
 }
 .step_big_container {
     display: flex;
-    justify-content:center;
 }
 .step_container {
     width: 100%;
     position: relative;
     margin: 10px;
+    justify-content: center;
 }
 .step_round {
     left: -12px;
@@ -36,9 +39,11 @@ button {
 .restaurant_big_container {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
-
+.restaurant_big_container a {
+    width: 45%;
+}
 .footer_links {
     display: flex;
     justify-content: space-between;
@@ -59,31 +64,47 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    max-width: 80%;
 }
 .menu_bloc {
-    width: 48%;
+    width: 100%;
 }
 .menu_bloc__price {
     width: 0;
 }
 }
 
-/*desktop*/
+/*DESKTOP*/
 @media all and (min-width:1023px) {
-
+    
+    .loader__spinner {
+        left: 43%;
+    }
+    button {
+        width: 30%;
+    }
+    .step_round {
+        left: 4px;
+    }
     .step_box {
         justify-content: center;
         width: 65%;
     }
     .step_box i {
-        left: 22px;
+        left: 37px;
         font-size: 0.8em;
+    }
+    .restaurant_big_container a {
+        max-width: 55%;
     }
     .restaurant_big_container {
         justify-content: space-around;
     }
     .restaurant_big_container figure {
         width: 475px;
+    }
+    .restaurant_menu {
+        flex-direction: row;
     }
     .restaurant_menu_id {
         max-height: 400px;
